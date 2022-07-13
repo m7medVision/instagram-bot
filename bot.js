@@ -9,8 +9,8 @@ function sleep(ms) {
 (
     async () => {
         await client.init({
-            username: "majhcc.test",
-            password: "oman1234"
+            username: "USERNAME",
+            password: "PASSWORD"
         })
         while (true) {
             await sleep(5000);
